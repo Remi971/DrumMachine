@@ -1,0 +1,19 @@
+{
+  "name": "drummachine",
+  "version": "1.0.0",
+  "description": "FreeCodeCamp Front End Libraries Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Remi971/DrumMachine.git"
+  },
+  "author": "Remi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Remi971/DrumMachine/issues"
+  },
+  "homepage": "https://github.com/Remi971/DrumMachine#readme"
+}
