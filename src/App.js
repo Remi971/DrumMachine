@@ -11,31 +11,31 @@ class App extends Component {
       bank: bank1,
     };
   }
-
-  drumPadTrigger = (letter) => {
-    console.log('drumPadTrigger function is running');
-  }
-
   render() {
     return (
       <div id="drum-machine">
-        <div className="wrapper" style={wrapperStyle}>
+        <div className="wrapper" /*style={wrapperStyle}*/>
           <PadBank
-            playSound={this.drumPadTrigger}
+            className='padbank'
             bank={this.state.bank}
           />
+        </div>
+        <div className="pad">
+          <div id="display">
+
+          </div>
         </div>
       </div>
     );
   }
 }
 
-const wrapperStyle = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  flexWrap: 'wrap',
-  width: '300px',
-}
+// const wrapperStyle = {
+//   display: 'flex',
+//   justifyContent: 'center',
+//   alignItems: 'center',
+//   flexWrap: 'wrap',
+//   width: '300px',
+// }
 
 export default App;
